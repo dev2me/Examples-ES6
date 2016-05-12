@@ -1,24 +1,12 @@
-//Example 05
-//Operadores Logicos
-
-console.log(5 == 1);
-console.log(5 <= 1);
-console.log(5 < 1);
-console.log(5 > 1);
-console.log(5 >= 1);
-console.log(5 == 1 && 4 > 6);
-console.log(5 < 1 || 5 == 5);
+//Example 06
+//Variables && Constantes
 
 
+var secondName = "HACKRO";
+let age = 19;
+const Name = "David"
 
-/*
-== igual
-!= diferente
-<  menor que 
-<= meyor igual
->  mayor que
->= mayor igual
-%% and
-|| or
-!  not
-*/
+secondName = "hackro"
+age = 0;
+//Name = "paulina"; //--No it's possible change value const
+console.log(Name + secondName + age);
