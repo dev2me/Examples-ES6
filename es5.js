@@ -1,11 +1,13 @@
-//Example 06
-//Variables && Constantes
+//Example 07
+//Arrays
 
-var secondName = "HACKRO";
-let age = 19;
-const Name = "David";
+var names = new Array("david", "mayra");
+console.log(names);
 
-secondName = "hackro";
-age = 0;
-//Name = "paulina"; //--No it's possible change value const
-console.log(Name + secondName + age);
+names.push("jacky");
+console.log(names);
+
+names.pop();
+console.log(names);
+
+console.log(names[0]);
