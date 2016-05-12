@@ -1,9 +1,5 @@
-//Example 03
-//Operadores Aritméticos
-// + - * / %
-let integer = 2;
-let double = 10;
+//Example 04
+//Operadores Unarios
 
-
-console.log(integer + (double * integer));
-console.log(integer % (double * integer));
+console.log(typeof 4);
+console.log(-(10-8));
