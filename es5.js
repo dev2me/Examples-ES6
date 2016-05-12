@@ -1,12 +1,8 @@
-//Example 02
-//Values
-
-let cadena = 'Tutorials Hackro';
+//Example 03
+//Operadores Aritméticos
+// + - * / %
 let integer = 2;
-let double = 19.5;
-let boolean = true;
+let double = 10;
 
-console.log(cadena);
-console.log(integer);
-console.log(double);
-console.log(boolean);
+console.log(integer + double * integer);
+console.log(integer % (double * integer));
