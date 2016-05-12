@@ -1,13 +1,16 @@
 //Example 07
-//Arrays
+//Maps
 
-var names = new Array("david","mayra");
-console.log(names);
+var data = new Map();
 
-names.push("jacky");
-console.log(names);
+//set properties
+data.set("name","david");
+data.set("age",19);
+data.set("secondName","hackro");
+data.set("genere",true);
 
-names.pop();
-console.log(names);
-
-console.log(names[0]);
+console.log(data);
+console.log(data.get("name"));//get property
+console.log(data.has("name"));//contain 
+data.delete("name");//delete property
+console.log(data.has("name"));
