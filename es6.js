@@ -1,14 +1,24 @@
-//Example 09
-//Destructuring assignment
+//Example 10
+//Variables de bloque
 
-
-var peoples = new Array("david","hackro");
-//without destructuring
 /*
-var firstPeople = peoples[0];
-var secondPeople = peoples[1];
+let = exist in block
+var = global
 */
-//with destructuring
-var [firstPeople,secondPeople] = peoples;
 
-console.log(firstPeople,secondPeople);
+var age;
+
+function say(){
+	let name = "david hackro";
+		  console.log(`hey!! ${name}`);
+
+}
+	  console.log(`hey!! ${name}`);
+
+say();
+
+for(var i = 0; i < 10;i++){
+		  console.log(`value ${i}`);
+}
+
+	console.log(`value if after for${i}`);
