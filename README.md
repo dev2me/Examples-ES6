@@ -261,7 +261,7 @@
     names("david","hackro");
 ```
 ###1.18 function arrow
-    ```javascript
+```javascript
 
     /*var operation = function(value1,value2){
     	console.log(`the result is ${value1 + value2}`);
