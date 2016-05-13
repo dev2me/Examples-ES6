@@ -1,29 +1,14 @@
-//Example 08
-//set - conjunto
+//Example 09
+//Destructuring assignment
 
 
+var peoples = new Array("david","hackro");
+//without destructuring
+/*
+var firstPeople = peoples[0];
+var secondPeople = peoples[1];
+*/
+//with destructuring
+var [firstPeople,secondPeople] = peoples;
 
-var peoples = new Set();
-
-//add properties
-peoples.add("david"); 
-peoples.add("mayra");
-peoples.add("karina");
-peoples.add("jacky");
-peoples.add(456465);
-//peoples.add("jacky");//-->o it's possible properties similars
-
-
-
-console.log(peoples);
-
-//search property
-console.log(peoples.has("david"));
-
-//show size
-console.log(peoples.size);
-
-//delete property
-peoples.delete("david");
-
-console.log(peoples);
+console.log(firstPeople,secondPeople);
