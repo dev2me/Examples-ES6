@@ -1,7 +1,9 @@
-//`Example 15
-//defaul parameters
+//`Example 16
+//parameters spread
 
-function people(name = "david", age = "19") {
-	console.log(`Hello my name is ${ name } and i have ${ age } years old`);
+function devices(type, name, brand) {
+  console.log(`the device ${ type } is ${ name } and ${ brand }`);
 }
-people();
+
+var cellphone = new Array("small", "zt", "sony");
+devices(...cellphone);
