@@ -1,8 +1,11 @@
-//Example 11
-//loop for
+//Example 12
+//loop for of
+
+var languajes = new Array("java","Ruby","Python");
 
 
-for(let i = 1; i < 10; i+=i)
+
+for(let languaje of languajes)
 {
-	console.log(i); 
+	console.log(languaje); 
 }
