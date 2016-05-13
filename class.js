@@ -6,8 +6,12 @@ class man{
 		this.age = age;
 	}
 
+	sayHello(){
+			return `Hello! ${this.name}`;
+	}
+
 }
 
 var Man = new man("david",8);
 
-console.log(Man);
+console.log(Man.sayHello());
