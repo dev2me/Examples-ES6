@@ -1,8 +1,8 @@
-//Example 12
-//loop for of
+//Example 13
+//while
 
-var languajes = new Array("java", "Ruby", "Python");
-
-for (let languaje of languajes) {
-	console.log(languaje);
+var age = 19;
+while (age <= 20) {
+	age++;
+	console.log(`${ age }`);
 }
