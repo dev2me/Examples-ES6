@@ -26,7 +26,7 @@
     console.log(boolean);
    ``` 
     
-###1.2 Operadores Aritmeticos
+###1.2 arithmetic operators
 ```javascript
 
     // + - * / %
@@ -37,14 +37,16 @@
     console.log(integer + (double * integer));
     console.log(integer % (double * integer));
 ```
-###1.3 Operadores Unarios
+###1.3 unary operators
+
 ```javascript
 
     console.log(typeof 4);
     console.log(-(10-8));
 ```
   
-###1.4 Operadores Logicos
+###1.4 Logical operators
+
   ```javascript
   
     console.log(5 == 1);
@@ -69,7 +71,8 @@
     !  not
     */
   ```
-###1.5 Variables & Constantes
+###1.5 Variables & Constants
+
   ```javascript
 
     var secondName = "HACKRO";
@@ -154,7 +157,8 @@
     
     console.log(firstPeople,secondPeople);
 ```
-###1.10 Variables de bloque
+###1.10 Variables block
+
 ```javascript
 
     /*
