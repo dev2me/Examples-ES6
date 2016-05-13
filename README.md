@@ -82,6 +82,7 @@
     console.log(Name + secondName + age);
   ```
 ###1.6 Arrays
+  ```javascript
 
     var names = new Array("david","mayra");
     console.log(names);
