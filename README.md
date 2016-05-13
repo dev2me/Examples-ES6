@@ -4,11 +4,12 @@
 
 ###1.0 Hello World ES6
 
-Markup : 
+```javascript
+    let saludo = 'Hola Mundo';
 
-    `let saludo = 'Hola Mundo';
+    console.log(saludo);
+```
 
-    console.log(saludo);`
 
 
 ###1.1 values
