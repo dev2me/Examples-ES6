@@ -1,11 +1,10 @@
 # Examples ES6
 
-###
 
 
 ###1.0 Hello World ES6
 
-   `let saludo = 'Hola Mundo';
+Markup :  `let saludo = 'Hola Mundo';
     console.log(saludo);`
 
 
