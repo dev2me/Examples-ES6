@@ -1,8 +1,12 @@
-//`Example 17
-//parameters rest
+//`Example 18
+//function arrow
 
-function names(...collectionNames) {
-	for (let name of collectionNames) console.log(name);
+/*var operation = function(value1,value2){
+	console.log(`the result is ${value1 + value2}`);
 }
+operation(5,6);
+*/
 
-names("david", "hackro");
+//using arrow
+var operation = (value1, value2) => value1 + value2;
+console.log(`the result is ${ operation(5, 9) }`);
