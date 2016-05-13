@@ -1,12 +1,5 @@
-//`Example 18
-//function arrow
+//`Example 19
 
-/*var operation = function(value1,value2){
-	console.log(`the result is ${value1 + value2}`);
-}
-operation(5,6);
-*/
+var Man = new man("david",8);
 
-//using arrow
-var operation = (value1,value2) => value1 + value2;
-console.log(`the result is ${operation(5,9)}`);
+console.log(Man);
