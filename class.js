@@ -2,37 +2,18 @@
 
 
 class man{
-	
-	constructor(name,age){
-		this.name = name;
-		this.age = age;
+
+	get name(){
+		return this._name;
 	}
 
-	sayHello(){
-			return `Hello! ${this.name}`;
+	set name(name){
+			this._name  = name;
 	}
 
-	static sayBye(){
-		return `Bye!`;
-	}
 }
 
-//var Man = new man("david",8);
 
-
-class children extends man{
-
-	constructor(name,age){
-		super(name,age);
-		this.name = "hackro";
-		this.age = 24;
-	}
-
-	sayInformation(){
-		return `hello my name is ${this.name} and i have ${this.age} years old`;
-	}
-} 
-
-var boy = new children("mayra",24);
-console.log(boy.sayHello());
-console.log(boy.sayInformation());
+var david = new man();
+david.name = "hackro";
+console.log(`youre name is ${david.name}`);
