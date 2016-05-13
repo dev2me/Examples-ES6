@@ -304,9 +304,9 @@
     }
     
     var Man = new man("david",8);
-    ```
+```
 ###1.21 Inheritance
-    ```javascript
+```javascript
 
     
     class man{
@@ -332,9 +332,9 @@
     
     	constructor(name,age){
     		super(name,age);
-    		```
+```
 ####1.22 set & get
-    ```javascript
+```javascript
     		
     class man{
     
