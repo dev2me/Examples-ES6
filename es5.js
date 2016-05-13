@@ -1,9 +1,8 @@
-//`Example 16
-//parameters spread
+//`Example 17
+//parameters rest
 
-function devices(type, name, brand) {
-  console.log(`the device ${ type } is ${ name } and ${ brand }`);
+function names(...collectionNames) {
+	for (let name of collectionNames) console.log(name);
 }
 
-var cellphone = new Array("small", "zt", "sony");
-devices(...cellphone);
+names("david", "hackro");
