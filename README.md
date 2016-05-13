@@ -13,7 +13,8 @@
 
 
 ###1.1 values
-  
+  ```javascript
+
     let cadena = 'Tutorials Hackro';
     let integer = 2;
     let double = 19.5;
@@ -23,9 +24,10 @@
     console.log(integer);
     console.log(double);
     console.log(boolean);
-    
+   ``` 
     
 ###1.2 Operadores Aritmeticos
+```javascript
 
     // + - * / %
     let integer = 2;
@@ -34,15 +36,17 @@
     
     console.log(integer + (double * integer));
     console.log(integer % (double * integer));
-
+```
 ###1.3 Operadores Unarios
+```javascript
 
     console.log(typeof 4);
     console.log(-(10-8));
-
+```
   
 ###1.4 Operadores Logicos
-    
+  ```javascript
+  
     console.log(5 == 1);
     console.log(5 <= 1);
     console.log(5 < 1);
@@ -64,9 +68,10 @@
     || or
     !  not
     */
-  
+  ```
 ###1.5 Variables & Constantes
-  
+  ```javascript
+
     var secondName = "HACKRO";
     let age = 19;
     const Name = "David"
@@ -75,7 +80,7 @@
     age = 0;
     //Name = "paulina"; //--No it's possible change value const
     console.log(Name + secondName + age);
-  
+  ```
 ###1.6 Arrays
 
     var names = new Array("david","mayra");
@@ -88,8 +93,10 @@
     console.log(names);
     
     console.log(names[0]);
-
+```
 ###1.7 Maps
+   ```javascript
+
     var data = new Map();
     
     //set properties
@@ -103,9 +110,10 @@
     console.log(data.has("name"));//contain 
     data.delete("name");//delete property
     console.log(data.has("name"));
-
+```
 ###1.8 Set
-    
+  ```javascript
+  
     var peoples = new Set();
     
     //add properties
@@ -130,8 +138,9 @@
     peoples.delete("david");
     
     console.log(peoples);
-
+```
 ###1.9 Destructuring assignment
+```javascript
 
     var peoples = new Array("david","hackro");
     //without destructuring
@@ -143,8 +152,9 @@
     var [firstPeople,secondPeople] = peoples;
     
     console.log(firstPeople,secondPeople);
-
+```
 ###1.10 Variables de bloque
+```javascript
 
     /*
     let = exist in block
@@ -166,35 +176,39 @@
     		  console.log(`value ${i}`);
     }
 
-
+```
 ###1.11 loop for
+```javascript
 
     
     for(let i = 1; i < 10; i+=i)
     {
     	console.log(i); 
     }
-
+```
 ###1.12 loop for of
-  
+  ```javascript
+
     var languajes = new Array("java","Ruby","Python");
     
     for(let languaje of languajes)
     {
     	console.log(languaje); 
     }
-
+```
 
 ###1.13 while
+```javascript
 
     var age = 19;
     while(age <= 20){
     	age++;
     console.log(`${age}`);
     }
-
+```
 
 ###1.14  Functions
+```javascript
 
     function sayHello(name)
     {
@@ -215,15 +229,17 @@
     sayHello(`david`);
     sayHi(`hackro`);
     console.log(`the result is ${resultOperation(2,3)}`);
-
+```
 ###1.15 defaul values parameters 
+```javascript
 
     function people(name ="david",age="19"){
     	console.log(`Hello my name is ${name} and i have ${age} years old`);
     }
     people();
-
+```
 ###1.16 parameters spread
+```javascript
 
     function devices(type,name,brand){
     console.log(`the device ${type} is ${name} and ${brand}`);
@@ -231,9 +247,10 @@
     
     var cellphone = new Array("small","zt","sony");
     devices(...cellphone);
-
+```
 
 ###1.17 parameters rest
+```javascript
 
     function names(... collectionNames){
     	for(let name of collectionNames)
@@ -241,9 +258,10 @@
     }
     
     names("david","hackro");
-
+```
 ###1.18 function arrow
-    
+    ```javascript
+
     /*var operation = function(value1,value2){
     	console.log(`the result is ${value1 + value2}`);
     }
@@ -253,8 +271,9 @@
     //using arrow
     var operation = (value1,value2) => value1 + value2;
     console.log(`the result is ${operation(5,9)}`);
-
+```
 ###1.19 class
+```javascript
 
     class man{
     	constructor(name,age){
@@ -267,8 +286,9 @@
     var Man = new man("david",8);
     
     console.log(Man);
-
+```
 ###1.20 methods
+```javascript
 
     class man{
     	constructor(name,age){
@@ -283,9 +303,10 @@
     }
     
     var Man = new man("david",8);
-    
+    ```
 ###1.21 Inheritance
-    
+    ```javascript
+
     
     class man{
     	
@@ -310,8 +331,10 @@
     
     	constructor(name,age){
     		super(name,age);
+    		```
 ####1.22 set & get
-        		
+    ```javascript
+    		
     class man{
     
     	get name(){
@@ -340,3 +363,4 @@
     var boy = new children("mayra",24);
     console.log(boy.sayHello());
     console.log(boy.sayInformation());
+```
