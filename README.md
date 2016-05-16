@@ -12,7 +12,7 @@
 
 
 
-###1.1 values
+###1.1 Values
   ```javascript
 
     let cadena = 'Tutorials Hackro';
@@ -26,7 +26,7 @@
     console.log(boolean);
    ``` 
     
-###1.2 arithmetic operators
+###1.2 Arithmetic operators
 ```javascript
 
     // + - * / %
@@ -37,7 +37,7 @@
     console.log(integer + (double * integer));
     console.log(integer % (double * integer));
 ```
-###1.3 unary operators
+###1.3 Unary operators
 
 ```javascript
 
@@ -157,7 +157,7 @@
     
     console.log(firstPeople,secondPeople);
 ```
-###1.10 Variables block
+###1.10 Variables Block
 
 ```javascript
 
@@ -182,7 +182,7 @@
     }
 
 ```
-###1.11 loop for
+###1.11 loop For
 ```javascript
 
     
@@ -191,7 +191,7 @@
     	console.log(i); 
     }
 ```
-###1.12 loop for of
+###1.12 Loop For of
   ```javascript
 
     var languajes = new Array("java","Ruby","Python");
@@ -202,7 +202,7 @@
     }
 ```
 
-###1.13 while
+###1.13 While
 ```javascript
 
     var age = 19;
@@ -235,7 +235,7 @@
     sayHi(`hackro`);
     console.log(`the result is ${resultOperation(2,3)}`);
 ```
-###1.15 defaul values parameters 
+###1.15 Defaul values parameters 
 ```javascript
 
     function people(name ="david",age="19"){
@@ -243,7 +243,7 @@
     }
     people();
 ```
-###1.16 parameters spread
+###1.16 Parameters Spread
 ```javascript
 
     function devices(type,name,brand){
@@ -254,7 +254,7 @@
     devices(...cellphone);
 ```
 
-###1.17 parameters rest
+###1.17 Parameters Rest
 ```javascript
 
     function names(... collectionNames){
@@ -264,7 +264,7 @@
     
     names("david","hackro");
 ```
-###1.18 function arrow
+###1.18 Dunction Arrow
 ```javascript
 
     /*var operation = function(value1,value2){
@@ -277,7 +277,7 @@
     var operation = (value1,value2) => value1 + value2;
     console.log(`the result is ${operation(5,9)}`);
 ```
-###1.19 class
+###1.19 Class
 ```javascript
 
     class man{
@@ -292,7 +292,7 @@
     
     console.log(Man);
 ```
-###1.20 methods
+###1.20 Methods
 ```javascript
 
     class man{
@@ -337,7 +337,7 @@
     	constructor(name,age){
     		super(name,age);
 ```
-####1.22 set & get
+####1.22 Set & Get
 ```javascript
     		
     class man{
