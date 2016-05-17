@@ -235,7 +235,7 @@
     sayHi(`hackro`);
     console.log(`the result is ${resultOperation(2,3)}`);
 ```
-###1.15 Defaul values parameters 
+###1.15 Default values parameters 
 ```javascript
 
     function people(name ="david",age="19"){
@@ -264,7 +264,7 @@
     
     names("david","hackro");
 ```
-###1.18 Dunction Arrow
+###1.18 Arrow Functions
 ```javascript
 
     /*var operation = function(value1,value2){
